@@ -1,0 +1,105 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+header {
+    position: fixed;
+    background: #fafafa;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.header-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.header-left .site-name {
+    width: 106px;
+    height: 32px;
+    margin: 24px 0;
+}
+
+.nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;   
+    width: 415px;
+}
+
+.burger-svg {
+    display: none;
+    background: none;
+}
+
+.nav-item-link {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.nav-item-link:hover {
+    color: #000;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* MEDIA QUERIES HEADER */
+
+@media (max-width:420px) {
+
+    body.menu-opened {
+        padding-top: 330px;
+    }
+
+    .nav-links {
+        display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 10px;
+        background-color: #fafafa;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        -webkit-transition: opacity 0.3s ease;
+        -o-transition: opacity 0.3s ease;
+        transition: opacity 0.3s ease;
+        opacity: 0;
+    }
+    .nav-links.show {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        opacity: 1;
+    }
+    .burger-svg {
+        display: block;
+    }
+    .nav-links li {
+        margin: 0;
+        text-align: center;
+        padding: 10px;
+    }
+}

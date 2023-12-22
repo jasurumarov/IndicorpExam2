@@ -1,0 +1,998 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* HOME SECTION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.home-section {
+    margin-top: 84px;
+    background-image: url("../images/main/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+}
+
+.home-section-content {
+    max-width: 509px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 30px;
+    padding: 50px 0 175px 0;
+}
+
+.home-section-heading {
+    color: var(--heading-color);
+    font-size: 56px;
+    font-family: Montserrat800;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+
+.home-section-desc {
+    max-width: 376px;
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+ 
+.home-section-btnGroup {
+    max-width: 349px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.home-section-quote-btn {
+    padding: 9px 35px;
+    border-radius: 37px;
+    background: var(--yellow-btn-icons);
+    border: 1px solid var(--yellow-btn-icons);
+    /* btn-text */
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+.home-section-quote-btn:hover {
+    background: #FFF;
+    /* btn-text */
+    color: var(--yellow-btn-icons);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s
+}
+ 
+.home-section-learnMore-btn {
+    padding: 10px 36px;
+    border-radius: 37px;
+    background: #FFF;
+    border: 1px solid var(--blue-btn-icons);
+    /* btn-text */
+    color: var(--blue-btn-icons);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+.home-section-learnMore-btn:hover {
+    background: var(--blue-btn-icons);
+    /* btn-text */
+    color: #FFF;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s
+}
+
+/* END HOME SECTION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* POSITION CARDS SECTION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.position-cards-section{
+    position: absolute;
+    top: 600px;
+    left: 0;
+    right: 0;
+}
+
+.positon-cards-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 18px;
+}
+
+.position-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.position-card {
+    width: 328px;
+    padding: 35px 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 10px;
+    background: #FFF;
+    cursor: pointer;
+    /* SHADOW */
+    -webkit-box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+            box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.positon-cards-content .card-heading {
+    color: var(--heading-color);
+    font-size: 22px;
+    font-family: Montserrat700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+.positon-cards-content .card-desc{
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+
+.position-card:hover {
+    background: var(--blue-btn-icons);
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.position-card:hover svg {
+    fill: #FFF;
+    color: #FFF;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.position-card:hover .card-heading {
+    color: #FFF;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+
+}
+.position-card:hover .card-desc {
+    color: #FFF;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+/* END POSITION CARDS SECTION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* ABOUTUS SECTION */
+
+.aboutUs-section {
+    padding-top: 320px;
+    padding-bottom: 105px;
+    background-color: #FAFAFA;
+}
+
+.aboutUs-section-title {
+    max-width: 520px;
+    margin: 0 auto;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.aboutUs-section-heading {
+    color: var(--heading-color);
+    font-size: 40px;
+    font-family: Montserrat700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.aboutUs-section-desc {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+}
+
+.aboutUs-section-cards{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+}
+
+.aboutUs-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 230px;
+    padding: 30px 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 10px;
+    background: #FFF;
+}
+.aboutUs-card:hover {
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.aboutUs-card-icon {
+    width: 48px;
+    height: 45px;
+}
+
+.aboutUs-card-number{
+    color: var(--heading-color);
+    font-family: Montserrat700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.aboutUs-card-name {
+    color: var(--text-color);
+    font-family: Montserrat700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+/* END ABOUTUS SECTION */
+
+/* ADVICE SECTION */
+
+.advice-section {
+    padding-top: 100px;
+    background-color: #FAFAFA;
+    padding-bottom: 101px;
+}
+
+.advice-section-title {
+    max-width: 510px;
+    margin: 0 auto;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.advice-section-heading {
+    color: var(--heading-color);
+    font-size: 40px;
+    font-family: Montserrat700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.advice-section-desc {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+}
+
+.advice-section-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 22px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.advice-card {
+    background: #FFF;
+    width: 238px;
+    height: 321px;
+    cursor: pointer;
+}
+.advice-card:hover {
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.advice-card-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 232px;
+    padding: 30px 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 15px;
+}
+
+.advice-card-heading {
+    color: var(--heading-color);
+    font-family: Montserrat700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.advice-card-desc {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+/* END ADVICE SECTION */
+
+/* SERVICES SECTION */
+
+.services-section {
+    margin-bottom: 158px;
+}
+
+.services-section-title {
+    max-width: 520px;
+    margin: 0 auto;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.services-section-heading {
+    color: var(--heading-color);
+    font-size: 40px;
+    font-family: Montserrat700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+.services-section-heading-mobile {
+    display: none;
+}
+
+.services-section-desc {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+}
+
+.services-section-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 78px;
+}
+
+.services-info-left img {
+    max-width: 597px;
+    width: 100%;
+    height: 442px;
+    cursor: pointer;
+}
+
+.services-info-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 50px;
+    width: 345px;
+    height: 418px;
+}
+
+.services-info-right-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+}
+
+.services-info-right-heading {
+    color: var(--heading-color);
+    font-family: Montserrat700;
+    font-size: 40px;
+    line-height: 57px;
+}
+
+.services-info-right-desc {
+    color: var(--second-text-color, #737373);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.services-benefits-boxes{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+}
+
+.services-benefits-box-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 20px;
+}
+
+.box-item-heading {
+    color: var(--heading-color);
+    font-family: Montserrat700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 5px;
+}
+
+.box-item-desc {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+/* END SERVICES SECTION */
+
+/* SUBSCRIBE SECTION */
+
+.subscribe-section {
+    background: #FAFAFA;
+}
+
+.subscribe-icons {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.subscribe-icons img {
+    cursor: pointer;
+}
+
+.subscribe-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 172px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    padding: 30px 50px;
+    background: #16697A;
+}
+
+.email-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.subscribe-form label {
+    max-width: 260px;
+    color: #FFF;
+    font-family: Montserrat700;
+    font-size: 24px;
+    line-height: 32px; 
+    letter-spacing: 0.1px;
+}
+
+
+#email {
+    padding: 18px 120px 18px 20px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #E6E6E6;
+    background: #F9F9F9;
+}
+
+#submit {
+    padding: 15px 22.5px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    border-radius: 0 5px 5px 0;
+    background: var(--yellow-btn-icons);
+}
+
+/* END SUBSCRIBE SECTION */
+
+/* CONTACTUS SECTION */
+
+.contactUs-section {
+    padding-top: 100px;
+    background: #F3F3F3;
+}
+
+.contactUs-title {
+    max-width: 520px;
+    margin: 0 auto;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    margin-bottom: 80px;
+}
+
+.contactUs-heading {
+    color: var(--heading-color);
+    font-size: 40px;
+    font-family: Montserrat700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.contactUs-desc {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+}
+
+.contactUs-section-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 18px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 208px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.contactUs-card {
+    background: #FFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 328px;
+    padding: 50px 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+.contactUs-card:hover {
+    background-color: #252B42;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.contactUs-card:hover svg {
+    fill: #FFF;
+}
+.contactUs-card:hover p {
+    color: #FFF;
+}
+.contactUs-card:hover h5 {
+    color: #FFF;
+}
+.contactUs-card:hover button {
+    color: #FFF;
+    background: var(--heading-color);
+    border: 1px solid #FFF;
+}
+
+.contactUs-card svg {
+    fill: #00A0C1;
+}
+
+.contactUs-card-email {
+    color: var(--heading-color);
+    font-family: Montserrat600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.contactUs-card-heading {
+    color: var(--heading-color, #252B42);
+    font-family: Montserrat700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.contactUs-card-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid var(--yellow-btn-icons);
+    background: #FFF;
+    /* text */
+    color: var(--yellow-btn-icons);
+    font-family: Montserrat600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+/* forms */
+
+.contactUs-forms-part {
+    background: #FAFAFA;
+    padding: 100px 0;
+}
+
+.contactUs-forms {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+}
+
+#name {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.14px;
+    padding: 12px 20px; 
+    width: 100%;
+    background: #FAFAFA;
+    border: 1px solid #E0E0E0;
+}
+#name:focus {
+    background: #F3F3F3;
+}
+
+#contactUs-email {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.14px;
+    padding: 12px 20px; 
+    width: 100%;
+    background: #FAFAFA;
+    border: 1px solid #E0E0E0;
+}
+#contactUs-email:focus {
+    background: #F3F3F3;
+}
+
+#tel {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.14px;
+    padding: 12px 20px; 
+    width: 100%;
+    background: #FAFAFA;
+    border: 1px solid #E0E0E0;
+}
+#tel:focus {
+    background: #F3F3F3;
+}
+
+#comment {
+    outline: none;
+    resize: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.14px;
+    padding: 12px 20px; 
+    width: 100%;
+    background: #FAFAFA;
+    border: 1px solid #E0E0E0;
+}
+#comment:focus {
+    background: #F3F3F3;
+}
+
+#findUs {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.14px;
+    padding: 12px 20px; 
+    width: 100%;
+    background: #FAFAFA;
+    border: 1px solid #E0E0E0;
+}
+#findUs:focus {
+    background: #F3F3F3;
+}
+
+.submit-btn {
+    width: 170px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 2px solid var(--yellow-btn-icons);
+    background: var(--yellow-btn-icons);
+    color: var(--light-text-color, #FFF);
+    font-family: Montserrat700;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.submit-btn:hover {
+    background: #FAFAFA;
+    border: 2px solid var(--yellow-btn-icons);
+    color: var(--yellow-btn-icons);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+/* MEDIA QUERIES MAIN */
+
+@media (max-width:420px) {
+
+    .container {
+        max-width: 367px;
+    }
+
+    .home-section-heading {
+        text-align: center;
+        font-family: Montserrat700;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+    }
+
+    .home-section-desc {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        max-width: 279px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .home-section-btnGroup {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 20px;
+
+    }
+
+    .position-cards-section {
+        position: static;
+        background: #FAFAFA;
+    }
+
+    .aboutUs-section {
+        padding-top: 200px;
+    }
+
+    .aboutUs-section-desc {
+        width: 230px;
+        margin: 0 auto;
+    }
+
+    .advice-section-desc {
+        max-width: 230px;
+        margin: 0 auto;
+    }
+
+    .br-remove {
+        display: none;
+    }
+
+    .advice-section-cards{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .services-section-heading {
+        display: none;
+    }
+    .services-section-heading-mobile {
+        display: block;
+        color: var(--heading-color);
+        font-size: 40px;
+        font-family: Montserrat700;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+    }
+
+    .services-section-desc {
+        max-width: 230px;
+        margin: 0 auto;
+    }
+
+    .services-info-right-heading {
+        text-align: center;
+    }
+
+    .subscribe-icons {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 60px;
+        margin: 0 auto;
+    }
+
+    .subscribe-form {
+        padding: 30px 30px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 30px;
+    }
+
+    .subscribe-form label {
+        width: 260px;
+    }
+
+    #email {
+        width: 100%;
+        padding-right: 40px;
+    }
+
+    .contactUs-desc {
+        max-width: 230px;
+        margin: 0 auto;
+    }
+}
+
+
+
