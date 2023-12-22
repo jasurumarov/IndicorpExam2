@@ -461,7 +461,6 @@
 .services-info-left img {
     max-width: 597px;
     width: 100%;
-    height: 442px;
     cursor: pointer;
 }
 
@@ -953,6 +952,13 @@
 
     .services-info-right-heading {
         text-align: center;
+    }
+
+    .services-info-left {
+        margin: 0 auto;
+    }
+    .services-info-left img {
+        width: 300px;
     }
 
     .subscribe-icons {
